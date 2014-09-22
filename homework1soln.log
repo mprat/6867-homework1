@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 SEP 2014 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 SEP 2014 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,18 +184,18 @@ Overfull \hbox (8.23537pt too wide) in paragraph at lines 42--42
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exerc
-ise1a.png>] <exercise1c.png, id=20, 350.30875pt x 239.89626pt>
+ise1a.png>] <exercise1c.png, id=20, 371.3875pt x 275.0275pt>
 File: exercise1c.png Graphic file (type png)
 
 <use exercise1c.png>
 Package pdftex.def Info: exercise1c.png used on input line 71.
-(pdftex.def)             Requested size: 189.75105pt x 129.9447pt.
- <exercise1d.png, id=21, 371.3875pt x 293.095pt>
+(pdftex.def)             Requested size: 189.75105pt x 140.52235pt.
+ <exercise1d.png, id=21, 371.3875pt x 275.0275pt>
 File: exercise1d.png Graphic file (type png)
 
 <use exercise1d.png>
 Package pdftex.def Info: exercise1d.png used on input line 102.
-(pdftex.def)             Requested size: 207.0021pt x 163.36731pt.
+(pdftex.def)             Requested size: 207.0021pt x 153.29672pt.
 
 Overfull \hbox (13.06764pt too wide) in paragraph at lines 102--102
  [][] 
@@ -248,7 +248,7 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on homework1soln.pdf (4 pages, 207720 bytes).
+Output written on homework1soln.pdf (4 pages, 237857 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
