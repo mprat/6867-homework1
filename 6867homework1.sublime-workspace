@@ -307,13 +307,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "homework1soln.tex",
+			"settings":
+			{
+				"buffer_size": 7729,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 247.0,
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"preferesn",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"preferes",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefereces",
+				"Preferences: Settings - Default"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"latextools",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"settin",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"latex",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"packages",
+				"Preferences: Package Control Settings – User"
+			],
 			[
 				"sidebar",
 				"View: Toggle Open Files in Side Bar"
@@ -327,10 +379,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
 				"set syntax: late",
 				"Set Syntax: LaTeX"
 			],
@@ -341,10 +389,6 @@
 			[
 				"latextool",
 				"LaTeXTools: Reconfigure and migrate settings"
-			],
-			[
-				"latex",
-				"Set Syntax: LaTeX"
 			],
 			[
 				"side",
@@ -419,19 +463,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				":w",
-				":w - Save"
-			],
-			[
 				"view",
 				"View: Toggle Open Files in Side Bar"
-			],
-			[
-				"",
-				":$ - EOF"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -452,10 +488,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mprat/Documents/repos/6867-homework1"
+		"/Users/mprat/Documents/repos/6867-homework1",
+		"/Users/mprat/Documents/repos/6867-homework1/MATLAB",
+		"/Users/mprat/Documents/repos/6867-homework1/python"
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/6867-homework1/python/homework1.py",
+		"/Users/mprat/Documents/repos/6867-homework1/MATLAB/validateData.m",
+		"/Users/mprat/Dropbox/Resumes/resume_complete.tex",
+		"/Users/mprat/Documents/repos/6867-homework1/homework1soln.fdb_latexmk",
+		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mprat/Documents/repos/6867-homework1/6867homework1.sublime-project",
+		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/mprat/Documents/repos/6867-homework1/homework1soln.pdf",
+		"/Users/mprat/Documents/repos/6867-homework1/curvefitting.txt",
+		"/Users/mprat/Documents/repos/6867-homework1/python/testbed.ipynb",
 		"/Users/mprat/Dropbox/Zim/MEng/Calendar/2014/09/16.txt",
 		"/Users/mprat/Dropbox/Zim/MEng/Calendar/2014/09/17.txt",
 		"/Users/mprat/Documents/repos/meng-work/thesis-proposal/thesis-proposal.sublime-project",
@@ -571,23 +621,11 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-list-ends-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/README.md",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/settings_local.py",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/.gitignore",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/.buildozer/android/platform/python-for-android/src/jni/sdl_image/IMG_gif.c",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/.buildozer/android/platform/python-for-android/src/jni/mad/global.h",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/.buildozer/android/platform/python-for-android/.gitignore",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/__init__.py",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/buildozer.spec",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/willie-yl1-2014/view.py",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/willie-yl1-2014/button.py",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/willie-yl1-2014/main.py",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/willie-yl1-2014/michele_feedback.md",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/willie-yl1-2014/pWillieOL.py"
+		"/home/mprat/Documents/Michele/Repos/kivy_test_app/README.md"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -602,6 +640,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Iterations",
+			"35",
+			" & (-2, 0, 0)",
+			"0.01 &",
+			" & (-2, 0)",
+			"fig:sin",
+			"fig:gaus",
+			"ht",
+			"Thresh",
+			"Step",
+			"Guess",
+			"nomin",
+			"4",
+			" \n",
+			"spel",
+			"pdf",
+			"ignored",
 			"pdf",
 			"Introduction",
 			"work",
@@ -712,24 +767,7 @@
 			"h3",
 			"text-",
 			"text",
-			"h3",
-			"nav > ul",
-			"text-deco",
-			".project",
-			"background",
-			"pointer",
-			"display",
-			"font",
-			"text",
-			"links-list",
-			"ul",
-			"color",
-			"project",
-			".project-detail",
-			"color",
-			"project",
-			"h2",
-			"000000"
+			"h3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -747,8 +785,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "homework1soln.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6798,
+								6798
+							]
+						],
+						"settings":
+						{
+							"keep focus": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3024.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
