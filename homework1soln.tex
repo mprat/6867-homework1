@@ -3,6 +3,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{enumerate}
 
 \begin{document}
 
@@ -137,38 +139,61 @@
 
 % The gradient of a function can either be specified analytically or numerically approximated with central differences using $\delta_{h}[f](x) = f(x + 0.5h) - f(x - 0.5h)$. From a numerical standpoint, using either the analytical or numerical approximation to the gradient is approximately equivalent, given the correct choice of step size (see Figure 4).
 
-% \begin{table}[!ht]
-% \centering
-% \begin{tabular}[ht]{cccc}
-% Function & Algorithm & Guess & Iterations \\\hline
-% $f(x) = -$Gaussian$(6, 4)$ & GD & 5 & 21 \\
-% $f(x) = -$Gaussian$(6, 4)$ & \textsc{BFGS} & 5 & 6 \\
-% $f(x) = \sin(x + \frac{\pi}{2}) + 3$ & GD & 5 & 9 \\
-% $f(x) = \sin(x + \frac{\pi}{2}) + 3$ & \textsc{BFGS} & 5 & 4 \\
-% $f(x, y) = (x + 2)^2 + y^2$ & GD & (5, 5) & 25 \\
-% $f(x, y) = (x + 2)^2 + y^2$ & \textsc{BFGS} & (5, 5) & 2 \\
-% \end{tabular}
-% \label{tbl:bfgs}
-% \caption{Steps to convergence. GD is gradient descent, \textsc{BFGS} is from SciPy.}
-% \end{table}
 
 % Software packages like SciPy implement a different algorithm for estimating minima. Table 1 gives a comparison of the number of iterations of the algorithm needed to find a solution. In general, the \textsc{bfgs} optimizer in SciPy performs better than the simple gradient descent algorithm presented here. Both algorithms came up to the same solution within a few significant digits.
 
+The implemented gradient descent procedure was tested on three functions: 
+\begin{enumerate}[(a)]
+	\item A convex function: $f(x) = -Gaussian(6, 4)$ (an upside-down Gaussian with mean $6$ and variance $4$), who's minimum value is at $(6, -1)$. 
+	\item A scalar convex function of two variables: $f(x, y) = (x + 2)^2 + y^2$, who's minimum value is at $(-2, 0)$.
+	\item A non-convex function: $f(x) = \sin(x + \frac{\pi}{2})$, who has multiple minima at $(n \pi, -1)$ for all values of $n$.
+\end{enumerate}
+
+Figure \ref{fig:1-2-ab} shows the result of calculating the gradient descent on functions (a) and (b) written above. The dots are the calculated minima from gradient descent calculated at multiple step sizes, initial guesses, and thresholds. For convex functions with one minimum, the threshold is the biggest indicator of how many steps the procedure takes to converge. The threshold also determines how close the result is to the real minimum - the smaller the threshold, the closer the result is to the real minimum. Because there is one global minimum, the initial guess does not affect the end result of the function or significantly change the number of iterations required to converge.
+
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=.66\textwidth]{exercise1-2-ab.png}
-	\label{fig:gaus}
+	\includegraphics[width=.66\textwidth]{exercise1-2-ab.pdf}
 	\caption{(a) Convex function with known minimum value and it's analytical derivative. The dots are the calculated minima according to gradient descent. (b) Contour plot of the gradient of a scalar function with vector-valued arguments. The dots are the calculated minima according to gradient descent.}
+	\label{fig:1-2-ab}
 \end{figure}
+
+Figure \ref{fig:1-2-c} shows the result of using gradient descent on function (c) with different parameters. The sequence of dots in each case represents the guesses that gradient descent takes to be the minimum. In general, the choice of starting point affects which local minimum gradient descent will find. If the starting point chosen is a local maximum, the procedure will not step towards a minimum because the gradient is zero at the maximum. If the step size is large, the procedure will overshoot the minimum and zig-zag back to the desired minimum, taking a large number of iterations to converge. 
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{exercise1-2-c.png}
-	\label{fig:gaus}
-	\caption{The solid line is the function, the dashed line is it's analytical derivative, and the series of dots is the series of minimum guesses from gradient descent. (a) Initial guess: 5, step: 0.5, threshold: 0.1 converges in 9 iterations. (b) Initial guess: 5, step: 0.2, threshold: 0.1 converges in 20 iterations. (c) Initial guess: 4, step: 2, threshold: 0.1 converges in 59992 iterations. (d) Initial guess: 0, step: 0.5, threshold: 0.1 converges in 1 iteration, but does not converge to the correct minimum. }
+	\includegraphics[width=\textwidth]{exercise1-2-c.pdf}
+	\caption{The solid line is the function, the dashed line is its analytical derivative, and the series of dots is the series of minimum guesses from gradient descent. (a) Initial guess: 5, step: 0.5, threshold: 0.1 converges in 9 iterations. (b) Initial guess: -2, step: 0.2, threshold: 0.1 converges in 20 iterations. (c) Initial guess: 4, step: 2, threshold: 0.1 converges in 59992 iterations. (d) Initial guess: 0, step: 0.5, threshold: 0.1 converges in 1 iteration, but does not converge to a minimum. }
+	\label{fig:1-2-c}
 \end{figure}
 
+Approximating a function's gradient using central differences is very accurate if using an $h$ of $1$. Figure \ref{1-3-a} shows graphs of either the gradient function or gradient vector field for the three functions tested above. It is hard to tell the difference between the analytical and numerical functions, so using central differences to numerically estimate the gradient is effective.
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{exercise1-3-a.pdf}
+	\caption{The analytical and numerical gradients for the functions (a) upside-down Gaussian, (b) $f(x, y)= (x + 2)^2 + y^2$, and (c) $f(x) = \sin(x + \frac{\pi}{2})$. The solid red line is the analytical gradient and the dashed blue line is the numerical gradient.}
+	\label{fig:1-3-a}
+\end{figure}
+
+The \textsc{BFGS} optimizer in SciPy uses a more sophisticated method for estimating minima, so in general, the number of function evaluations needed before convergence is smaller. Table \ref{tbl:1-4-a} shows a comparison of the gradient descent and \textsc{BFGS} optimizer, where in all cases the step size was $0.2$ and the threshold was $0.01$.
+
+\begin{table}[!ht]
+\centering
+\makebox[\textwidth][c]{
+\begin{tabular}[ht]{ccccc}
+Function & Initial Guess & Algorithm & Evaluations & Min at\\\hline
+\multirow{2}{*}{$f(x) = -$Gaussian$(6, 4)$} & \multirow{2}{*}{$x = 5$} & GD & 34 & $x = 5.81$ \\
+ & & \textsc{BFGS} & 6 & $x = 6.00$ \\\hline
+\multirow{2}{*}{$f(x, y) = (x + 2)^2 + y^2$} & \multirow{2}{*}{$(x, y) = (5, 5)$} & GD & 13 & $(x, y) = (-2, 0)$\\
+ & & \textsc{BFGS} & 4 & $(x, y) = (-2, 0)$ \\\hline
+\multirow{2}{*}{$f(x) = \sin(x + \frac{\pi}{2})$} & \multirow{2}{*}{$x = 5$} &  GD & 20 & $x = 3.15$ \\
+ & &  \textsc{BFGS} & 6 & $x = 3.14$ \\
+\end{tabular}
+}
+\caption{Steps to convergence given a similar set of parameters. GD is gradient descent, \textsc{BFGS} is from SciPy. For gradient descent, all step sizes were $0.5$ and thresholds were $0.01$.}
+\label{tbl:1-4-a}
+\end{table}
 
 % \newpage
 \section{Exercise 2}

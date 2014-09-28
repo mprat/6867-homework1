@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 SEP 2014 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 SEP 2014 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -77,40 +77,44 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
-(./homework1soln.aux
-
-LaTeX Warning: Label `fig:gaus' multiply defined.
-
+(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen112
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks15
+)
+(./homework1soln.aux)
 \openout1 = `homework1soln.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
-\scratchdimen=\dimen112
+\scratchdimen=\dimen113
 \scratchbox=\box26
 \nofMPsegments=\count92
 \nofMParguments=\count93
-\everyMPshowfont=\toks15
+\everyMPshowfont=\toks16
 \MPscratchCnt=\count94
-\MPscratchDim=\dimen113
+\MPscratchDim=\dimen114
 \MPnumerator=\count95
 \makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks16
+\everyMPtoPDFconversion=\toks17
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -159,40 +163,65 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<exercise1-2-ab.png, id=1, 718.685pt x 275.0275pt>
-File: exercise1-2-ab.png Graphic file (type png)
- <use exercise1-2-ab.png>
-Package pdftex.def Info: exercise1-2-ab.png used on input line 159.
-(pdftex.def)             Requested size: 227.70126pt x 87.1377pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 147.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 147.
 
-<exercise1-2-c.png, id=3, 890.32625pt x 218.8175pt>
-File: exercise1-2-c.png Graphic file (type png)
- <use exercise1-2-c.png>
-Package pdftex.def Info: exercise1-2-c.png used on input line 166.
-(pdftex.def)             Requested size: 345.0pt x 84.7909pt.
+<exercise1-2-ab.pdf, id=1, 867.24pt x 289.08pt>
+File: exercise1-2-ab.pdf Graphic file (type pdf)
+ <use exercise1-2-ab.pdf>
+Package pdftex.def Info: exercise1-2-ab.pdf used on input line 156.
+(pdftex.def)             Requested size: 227.70126pt x 75.90007pt.
 
-[1
+<exercise1-2-c.pdf, id=2, 1084.05pt x 216.81pt>
+File: exercise1-2-c.pdf Graphic file (type pdf)
+ <use exercise1-2-c.pdf>
+Package pdftex.def Info: exercise1-2-c.pdf used on input line 165.
+(pdftex.def)             Requested size: 345.0pt x 69.00015pt.
+
+
+LaTeX Warning: Reference `1-3-a' on page 1 undefined on input line 170.
+
+<exercise1-3-a.pdf, id=3, 867.24pt x 216.81pt>
+File: exercise1-3-a.pdf Graphic file (type pdf)
+ <use exercise1-3-a.pdf>
+Package pdftex.def Info: exercise1-3-a.pdf used on input line 174.
+(pdftex.def)             Requested size: 345.0pt x 86.24937pt.
+ [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exerc
-ise1-2-ab.png> <./exercise1-2-c.png>] [2] (./homework1soln.aux)
+ise1-2-ab.pdf>] [2 <./exercise1-2-c.pdf> <./exercise1-3-a.pdf
 
-LaTeX Warning: There were multiply-defined labels.
+pdfTeX warning: pdflatex (file ./exercise1-3-a.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] [3] (./homework1soln.aux)
+
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2569 strings out of 493117
- 41148 string characters out of 6135433
- 92466 words of memory out of 5000000
- 6041 multiletter control sequences out of 15000+600000
- 4245 words of font info for 16 fonts, out of 8000000 for 9000
+ 2617 strings out of 493117
+ 42011 string characters out of 6135433
+ 96988 words of memory out of 5000000
+ 6080 multiletter control sequences out of 15000+600000
+ 4854 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,38p,641b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on homework1soln.pdf (2 pages, 127944 bytes).
+ 37i,12n,38p,735b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on homework1soln.pdf (3 pages, 1437884 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 2819 PDF objects out of 2984 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
