@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 SEP 2014 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 SEP 2014 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -77,14 +77,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
-(./homework1soln.aux
-
-LaTeX Warning: Label `tbl:nomin' multiply defined.
-
-
-LaTeX Warning: Label `sub@tbl:nomin' multiply defined.
-
-)
+(./homework1soln.aux)
 \openout1 = `homework1soln.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -101,7 +94,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen112
@@ -162,96 +156,25 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
-
-<exercise1a.png, id=1, 389.455pt x 291.0875pt>
-File: exercise1a.png Graphic file (type png)
- <use exercise1a.png>
-Package pdftex.def Info: exercise1a.png used on input line 42.
-(pdftex.def)             Requested size: 189.75105pt x 141.82129pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 42.
-
-Overfull \hbox (8.23537pt too wide) in paragraph at lines 42--42
- [][] 
- []
-
 [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exerc
-ise1a.png>] <exercise1c.png, id=20, 371.3875pt x 275.0275pt>
-File: exercise1c.png Graphic file (type png)
-
-<use exercise1c.png>
-Package pdftex.def Info: exercise1c.png used on input line 71.
-(pdftex.def)             Requested size: 189.75105pt x 140.52235pt.
- <exercise1d.png, id=21, 371.3875pt x 275.0275pt>
-File: exercise1d.png Graphic file (type png)
-
-<use exercise1d.png>
-Package pdftex.def Info: exercise1d.png used on input line 102.
-(pdftex.def)             Requested size: 207.0021pt x 153.29672pt.
-
-Overfull \hbox (13.06764pt too wide) in paragraph at lines 102--102
- [][] 
- []
-
-<exercise1e.png, id=22, 407.5225pt x 280.04625pt>
-File: exercise1e.png Graphic file (type png)
- <use exercise1e.png>
-Package pdftex.def Info: exercise1e.png used on input line 133.
-(pdftex.def)             Requested size: 137.9979pt x 94.82986pt.
-
-<exercise1f.png, id=23, 407.5225pt x 280.04625pt>
-File: exercise1f.png Graphic file (type png)
- <use exercise1f.png>
-Package pdftex.def Info: exercise1f.png used on input line 133.
-(pdftex.def)             Requested size: 137.9979pt x 94.82986pt.
-
-Overfull \hbox (20.39127pt too wide) in paragraph at lines 133--133
- [][] 
- []
-
-[2 <./exercise1c.png>]
-
-LaTeX Warning: Text page 3 contains only floats.
-
-[3 <./exercise1d.png> <./exercise1e.png> <./exercise1f.png>] [4]
-(./homework1soln.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./homework1soln.aux) ) 
 Here is how much of TeX's memory you used:
- 2627 strings out of 493117
- 41935 string characters out of 6135433
- 101738 words of memory out of 5000000
- 6089 multiletter control sequences out of 15000+600000
- 6369 words of font info for 23 fonts, out of 8000000 for 9000
+ 2553 strings out of 493117
+ 40859 string characters out of 6135433
+ 90389 words of memory out of 5000000
+ 6028 multiletter control sequences out of 15000+600000
+ 4245 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,42p,606b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on homework1soln.pdf (4 pages, 237857 bytes).
+ 37i,4n,38p,593b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb>
+Output written on homework1soln.pdf (1 page, 20802 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
