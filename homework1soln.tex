@@ -154,6 +154,20 @@
 
 % Software packages like SciPy implement a different algorithm for estimating minima. Table 1 gives a comparison of the number of iterations of the algorithm needed to find a solution. In general, the \textsc{bfgs} optimizer in SciPy performs better than the simple gradient descent algorithm presented here. Both algorithms came up to the same solution within a few significant digits.
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=.66\textwidth]{exercise1-2-ab.png}
+	\label{fig:gaus}
+	\caption{(a) Convex function with known minimum value and it's analytical derivative. The dots are the calculated minima according to gradient descent. (b) Contour plot of the gradient of a scalar function with vector-valued arguments. The dots are the calculated minima according to gradient descent.}
+\end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{exercise1-2-c.png}
+	\label{fig:gaus}
+	\caption{The solid line is the function, the dashed line is it's analytical derivative, and the series of dots is the series of minimum guesses from gradient descent. (a) Initial guess: 5, step: 0.5, threshold: 0.1 converges in 9 iterations. (b) Initial guess: 5, step: 0.2, threshold: 0.1 converges in 20 iterations. (c) Initial guess: 4, step: 2, threshold: 0.1 converges in 59992 iterations. (d) Initial guess: 0, step: 0.5, threshold: 0.1 converges in 1 iteration, but does not converge to the correct minimum. }
+\end{figure}
+
 
 
 % \newpage
