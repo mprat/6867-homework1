@@ -210,56 +210,59 @@ Function & Initial Guess & Algorithm & Evaluations & Min at\\\hline
 \makebox[\textwidth][c]{
 \begin{subtable}[!ht]{0.5\textwidth}
 \centering
-\scalebox{0.9}{
+\scalebox{0.8}{
 \begin{tabular}{l|rrrr}
 	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
-	$\hat{w}_0$ & & & & \\
-	$\hat{w}_1$ & & & & \\
-	$\hat{w}_2$ & & & & \\
-	$\hat{w}_3$ & & & & \\
-	$\hat{w}_4$ & & & & \\
-	$\hat{w}_5$ & & & & \\
-	$\hat{w}_6$ & & & & \\
-	$\hat{w}_7$ & & & & \\
-	$\hat{w}_8$ & & & & \\
-	$\hat{w}_9$ & & & & \\
+	$\hat{w}_0$ & $0.186$ & $0.820$ & $0.353$ & $0.349$ \\
+	$\hat{w}_1$ & & $-1.268$ & $2.619$ & $232.411$\\
+	$\hat{w}_2$ & & & $32.096$ & $-5322.833$\\
+	$\hat{w}_3$ & & & $-206.273$ & $48577.404$\\
+	$\hat{w}_4$ & & & $399.001$ & $-231682.150$\\
+	$\hat{w}_5$ & & & $-332.709$ & $640159.305$\\
+	$\hat{w}_6$ & & & $105.163$ & $-1061992.54$\\
+	$\hat{w}_7$ & & & & $1042586.68$ \\
+	$\hat{w}_8$ & & & & $-557781.754$\\
+	$\hat{w}_9$ & & & & $125223.393$\\
+\end{tabular}
+}
+\end{subtable}
+\hspace{3mm}
+\begin{subtable}[!ht]{0.5\textwidth}
+\centering
+\scalebox{0.8}{
+\begin{tabular}{l|rrrr}
+	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
+	$\hat{w}_0$ & $0.003$ & $0.499$ & $0.623$ & $-0.014$ \\
+	$\hat{w}_1$ & & $-0.502$ & $5.577$ & $6.018$ \\
+	$\hat{w}_2$ & & & $-14.465$ & $-12.820$ \\
+	$\hat{w}_3$ & & & $5.502$ & $6.294$ \\
+	$\hat{w}_4$ & & & $0.475$ & $-5.629$ \\
+	$\hat{w}_5$ & & & $0.453$ & $4.425$ \\
+	$\hat{w}_6$ & & & $0.435$ & $0.464$ \\
+	$\hat{w}_7$ & & & & $0.493$ \\
+	$\hat{w}_8$ & & & & $0.516$ \\
+	$\hat{w}_9$ & & & & $0.533$ \\
 \end{tabular}}
 \end{subtable}
 \begin{subtable}[!ht]{0.5\textwidth}
 \centering
-\scalebox{0.9}{
+\scalebox{0.8}{
 \begin{tabular}{l|rrrr}
 	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
-	$\hat{w}_0$ & & & & \\
-	$\hat{w}_1$ & & & & \\
-	$\hat{w}_2$ & & & & \\
-	$\hat{w}_3$ & & & & \\
-	$\hat{w}_4$ & & & & \\
-	$\hat{w}_5$ & & & & \\
-	$\hat{w}_6$ & & & & \\
-	$\hat{w}_7$ & & & & \\
-	$\hat{w}_8$ & & & & \\
-	$\hat{w}_9$ & & & & \\
-\end{tabular}}
-\end{subtable}
-\begin{subtable}[!ht]{0.5\textwidth}
-\centering
-\scalebox{0.9}{
-\begin{tabular}{l|rrrr}
-	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
-	$\hat{w}_0$ & & & & \\
-	$\hat{w}_1$ & & & & \\
-	$\hat{w}_2$ & & & & \\
-	$\hat{w}_3$ & & & & \\
-	$\hat{w}_4$ & & & & \\
-	$\hat{w}_5$ & & & & \\
-	$\hat{w}_6$ & & & & \\
-	$\hat{w}_7$ & & & & \\
-	$\hat{w}_8$ & & & & \\
-	$\hat{w}_9$ & & & & \\
+	$\hat{w}_0$ & $0.186$& $0.181$ & $0.133$ & $-0.077$ \\
+	$\hat{w}_1$ & & $-0.791$ & $4.974$ & $6.080$ \\
+	$\hat{w}_2$ & & & $-0.150$ & $-12.746$ \\
+	$\hat{w}_3$ & & & $4.964$ & $6.398$ \\
+	$\hat{w}_4$ & & & $-0.027$ & $-5.494$ \\
+	$\hat{w}_5$ & & & $-0.020$ & $4.586$ \\
+	$\hat{w}_6$ & & & $-0.013$ & $0.646$ \\
+	$\hat{w}_7$ & & & & $0.692$ \\
+	$\hat{w}_8$ & & & & $0.729$ \\
+	$\hat{w}_9$ & & & & $0.758$ \\
 \end{tabular}}
 \end{subtable}
 }
+\caption{Table 1.1 from Bishop replicated using (a)analytical solutions, (b) gradient descent, and (c) the Scipy \textsc{BFGS} optimizer}
 \end{figure}
 
 \section{Exercise 3}
