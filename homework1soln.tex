@@ -301,6 +301,15 @@ When recreating Bishop's Figure 1.4 using gradient descent and the \textsc{BFGS}
 
 Figure \ref{fig:3-1} shows the plots of predicted regression values using ridge regression for various values of $M$ and $\lambda$. Because a value of $\lambda=0$ corresponds to no regularizer, the plot for $M=9$ looks like the plots from Exercise 2 above. As $\lambda$ increases to $1$ and greater for all values of $M$, the predicted regression becomes more flat, since the regularizer punishes having large coefficients. Small values of $\lambda$ that are not $0$ yield good results. There is no benefit to increasing $M$ after a certain point when regressing with a regularizer.
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{exercise3-2-1.pdf}
+	\caption{All the data (training, validation, and test) with the two predicted regressions using sets A and B as training sets.}
+	\label{fig:3-2}
+\end{figure}
+
+Because there was no test / validation set given, I split the validation set into two - one became the validation set and one became the test set. To find the best regression, first choose an $M$ value using ridge regression with $\lambda = 0$ and iterating over all possible values of $M$ as there are data points. The $M$ that gives the smallest SSE for the training set, use that to test values of $\lambda$ that minimize the SSE on the validation set. The results of using set A as training vs. set B as training is given in Figure \ref{fig:3-2}. The SSE for set A on the test set was $15.35$ and the SSE for set B on the test set was $0.77$. The reason that set B gives a less complex model is that the data used in the training set was not uniformly distributed around the optimal regression line - the errors from the training set were pulling the model coefficients into higher complexity.
+
 
 
 \section{Exercise 4}
