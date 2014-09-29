@@ -6,6 +6,8 @@
 \usepackage{multirow}
 \usepackage{enumerate}
 
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+
 \begin{document}
 
 \section{Exercise 1}
@@ -262,8 +264,31 @@ Function & Initial Guess & Algorithm & Evaluations & Min at\\\hline
 \end{tabular}}
 \end{subtable}
 }
-\caption{Table 1.1 from Bishop replicated using (a)analytical solutions, (b) gradient descent, and (c) the Scipy \textsc{BFGS} optimizer}
+\caption{Table 1.1 from Bishop replicated using (a) analytical solutions, (b) gradient descent, and (c) the Scipy \textsc{BFGS} optimizer}
+\label{tbl:bishop-1-1}
 \end{figure}
+
+\begin{table}[!ht]
+\centering
+\makebox[\textwidth][c]{
+\begin{tabular}{c|cccc}
+& $M=0$ & $M=1$ & $M=3$ \\\hline
+SSE & $3.774$ & $2.237$ & $0.350$\\\hline
+$\nabla$ SSE analytic & $2.2\e{-16}$ & $(1.3\e{-15}, -1.3\e{-15})$ & $(-3.3\e{-14}, -6.4\e{-15},$ \\
+& & & $ -5.8\e{-15}, -1.7\e{-14})$ \\\hline
+$\nabla$ SSE numeric & $0$ & $(2.7\e{-15}, -1.3\e{-15})$ & $(-3.4\e{-14}, -6.2\e{-15},$\\
+& & & $-7.7\e{-15}, -1.7\e{-14})$ \\
+\end{tabular}
+}
+\caption{Values of the SSE and the analytical and numerical gradients for the given values of $M$ calculated using the $w$ coefficients calculated from the analytical solution.}
+\label{tbl:sse}
+\end{table}
+
+There are three ways to calculate the maximum likelihood weight vector to minimize the $L2$ norm - (a) analytically with matrices, (b) using gradient descent, and (c), using Scipy's built-in optimizer. Figure \ref{fig:2-1} shows the plots from Bishop Figure 1.4 reconstructed using the analytical (blue), gradient descent (green), and Scipy \textsc{BFGS}  (red) methods for different values of $M$. The coefficients from all three methods for the different values of $M$ in Bishop's Table 1.1 are given in Table \ref{tbl:bishop-1-1}. In general, the analytic computation matched Figure 1.4 in Bishop very well.
+
+The analytic function to compute the gradient of the SSE was compared against the numeric central difference method in Table \ref{tbl:sse}, using the weights computed by the analytic method for the various values of $M$. The methods match, so the analytic function is a valid one to use for further optimization.
+
+When recreating Bishop's Figure 1.4 using gradient descent and the \textsc{BFGS}, the same initial guess was given, and the analytic formula of the SSE gradient was used, for simplicity and consistency. Choosing initial guesses, step sizes, and thresholds for gradient descent strongly influences the results. In general, the closer the initial guess is to the analytic solution, the more likely the gradient descent function will find it. This is because the gradient of the SSE has multiple zeros - if there is an optimization for $9$ weights, then the SSE function is degree $9$, which means it can at most have $4$ local minima, according to Euler's theorem. This means that as in the discussion of Exercise 1 above, the gradient descent function will find different minima according to the start value. The threshold and step size were chosen to be $0.001$ and $0.01$ respectively, so that the gradient descent function came as close to the analytic solutions without taking too long to compute. The \textsc{BFGS} optimizer behaved like the gradient descent minimizer, except no threshold or step size needed to be given. However, it was strongly influenced by the initial guess, as discussed above.
 
 \section{Exercise 3}
 
