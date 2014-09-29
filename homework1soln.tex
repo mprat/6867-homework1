@@ -167,7 +167,7 @@ Figure \ref{fig:1-2-c} shows the result of using gradient descent on function (c
 	\label{fig:1-2-c}
 \end{figure}
 
-Approximating a function's gradient using central differences is very accurate if using an $h$ of $1$. Figure \ref{1-3-a} shows graphs of either the gradient function or gradient vector field for the three functions tested above. It is hard to tell the difference between the analytical and numerical functions, so using central differences to numerically estimate the gradient is effective.
+Approximating a function's gradient using central differences is very accurate if using an $h$ of $1$. Figure \ref{fig:1-3-a} shows graphs of either the gradient function or gradient vector field for the three functions tested above. It is hard to tell the difference between the analytical and numerical functions, so using central differences to numerically estimate the gradient is effective.
 
 \begin{figure}[!ht]
 	\centering
@@ -198,7 +198,69 @@ Function & Initial Guess & Algorithm & Evaluations & Min at\\\hline
 % \newpage
 \section{Exercise 2}
 
-This is a test. 
+\begin{figure}[!ht]
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[width=1.25\textwidth]{exercise2-1.pdf}}
+	\caption{Plots replicating Figure 1.4 in Bishop for different values of $M$ using different methods. The blue is generated with the analytical solution of the SSE, the green with the gradient descent method on the SSE, and the red using Python's \textsc{BFGS} optimizer.}
+	\label{fig:2-1}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\makebox[\textwidth][c]{
+\begin{subtable}[!ht]{0.5\textwidth}
+\centering
+\scalebox{0.9}{
+\begin{tabular}{l|rrrr}
+	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
+	$\hat{w}_0$ & & & & \\
+	$\hat{w}_1$ & & & & \\
+	$\hat{w}_2$ & & & & \\
+	$\hat{w}_3$ & & & & \\
+	$\hat{w}_4$ & & & & \\
+	$\hat{w}_5$ & & & & \\
+	$\hat{w}_6$ & & & & \\
+	$\hat{w}_7$ & & & & \\
+	$\hat{w}_8$ & & & & \\
+	$\hat{w}_9$ & & & & \\
+\end{tabular}}
+\end{subtable}
+\begin{subtable}[!ht]{0.5\textwidth}
+\centering
+\scalebox{0.9}{
+\begin{tabular}{l|rrrr}
+	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
+	$\hat{w}_0$ & & & & \\
+	$\hat{w}_1$ & & & & \\
+	$\hat{w}_2$ & & & & \\
+	$\hat{w}_3$ & & & & \\
+	$\hat{w}_4$ & & & & \\
+	$\hat{w}_5$ & & & & \\
+	$\hat{w}_6$ & & & & \\
+	$\hat{w}_7$ & & & & \\
+	$\hat{w}_8$ & & & & \\
+	$\hat{w}_9$ & & & & \\
+\end{tabular}}
+\end{subtable}
+\begin{subtable}[!ht]{0.5\textwidth}
+\centering
+\scalebox{0.9}{
+\begin{tabular}{l|rrrr}
+	& $M = 0$ & $M = 1$ & $M = 6$ & $M = 9$ \\\hline
+	$\hat{w}_0$ & & & & \\
+	$\hat{w}_1$ & & & & \\
+	$\hat{w}_2$ & & & & \\
+	$\hat{w}_3$ & & & & \\
+	$\hat{w}_4$ & & & & \\
+	$\hat{w}_5$ & & & & \\
+	$\hat{w}_6$ & & & & \\
+	$\hat{w}_7$ & & & & \\
+	$\hat{w}_8$ & & & & \\
+	$\hat{w}_9$ & & & & \\
+\end{tabular}}
+\end{subtable}
+}
+\end{figure}
 
 \section{Exercise 3}
 
