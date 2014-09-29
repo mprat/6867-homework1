@@ -311,7 +311,7 @@
 			"file": "homework1soln.tex",
 			"settings":
 			{
-				"buffer_size": 7729,
+				"buffer_size": 19507,
 				"line_ending": "Unix"
 			}
 		}
@@ -319,9 +319,17 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 247.0,
+		"height": 307.0,
 		"selected_items":
 		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
 			[
 				":w",
 				":w - Save"
@@ -355,10 +363,6 @@
 				"LaTeXTools: Jump to PDF"
 			],
 			[
-				"",
-				":$ - EOF"
-			],
-			[
 				"prefere",
 				"Preferences: Settings - User"
 			],
@@ -389,10 +393,6 @@
 			[
 				"latextool",
 				"LaTeXTools: Reconfigure and migrate settings"
-			],
-			[
-				"side",
-				"View: Toggle Side Bar"
 			],
 			[
 				"packa",
@@ -467,7 +467,7 @@
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 449.0
+		"width": 383.0
 	},
 	"console":
 	{
@@ -640,6 +640,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Increasing",
+			"e",
+			"E",
+			"e",
+			".01",
+			" (",
 			"Iterations",
 			"35",
 			" & (-2, 0, 0)",
@@ -761,13 +767,7 @@
 			"list-sty",
 			"project-",
 			"detail-dis",
-			"h2",
-			"nav > ul",
-			"background",
-			"h3",
-			"text-",
-			"text",
-			"h3"
+			"h2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -794,24 +794,38 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7729,
+						"buffer_size": 19507,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										18301,
+										18301
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								6798,
-								6798
+								18490,
+								18490
 							]
 						],
 						"settings":
 						{
 							"keep focus": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3024.0,
+						"translation.y": 6945.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -904,7 +918,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 195.0,
 	"status_bar_visible": true,
 	"template_settings":
