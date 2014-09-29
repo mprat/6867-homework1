@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 SEP 2014 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 SEP 2014 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,12 +209,12 @@ File: exercise3-1.pdf Graphic file (type pdf)
 <use exercise3-1.pdf>
 Package pdftex.def Info: exercise3-1.pdf used on input line 297.
 (pdftex.def)             Requested size: 431.25pt x 86.24937pt.
- <exercise3-2-1.pdf, id=2813, 390.14857pt x 281.90056pt>
+ <exercise3-2-1.pdf, id=2813, 385.81236pt x 277.56435pt>
 File: exercise3-2-1.pdf Graphic file (type pdf)
 
 <use exercise3-2-1.pdf>
 Package pdftex.def Info: exercise3-2-1.pdf used on input line 306.
-(pdftex.def)             Requested size: 172.5pt x 124.63882pt.
+(pdftex.def)             Requested size: 172.5pt x 124.10233pt.
  [4 <./exercise3-1.pdf>] [5 <./exercise3-2-1.pdf>]
 (./homework1soln.aux) ) 
 Here is how much of TeX's memory you used:
