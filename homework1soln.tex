@@ -292,7 +292,16 @@ When recreating Bishop's Figure 1.4 using gradient descent and the \textsc{BFGS}
 
 \section{Exercise 3}
 
-This is a test. 
+\begin{figure}[!ht]
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[width=1.25\textwidth]{exercise3-1.pdf}}
+	\caption{Predicted regressions using ridge regression for various values of $M$ and $\lambda$}
+	\label{fig:3-1}
+\end{figure}
+
+Figure \ref{fig:3-1} shows the plots of predicted regression values using ridge regression for various values of $M$ and $\lambda$. Because a value of $\lambda=0$ corresponds to no regularizer, the plot for $M=9$ looks like the plots from Exercise 2 above. As $\lambda$ increases to $1$ and greater for all values of $M$, the predicted regression becomes more flat, since the regularizer punishes having large coefficients. Small values of $\lambda$ that are not $0$ yield good results. There is no benefit to increasing $M$ after a certain point when regressing with a regularizer.
+
+
 
 \section{Exercise 4}
 
