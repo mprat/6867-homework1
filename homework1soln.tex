@@ -310,28 +310,14 @@ Figure \ref{fig:3-1} shows the plots of predicted regression values using ridge 
 
 There were two sets, A and B, in addition to a validation set given. To do model selection and test the results, I split each set A or B into two sets: half (arbitrarily the first half) became the training set, and half became the validation set (arbitrarily the second half). The validation set became the training set that the errors were reported on. To find the best regression, first choose an $M$ value using ridge regression with $\lambda = 0$ and iterating over all possible values of $M$ as there are data points. The $M$ that gives the smallest MSE for the training set, use that to test values of $\lambda$ that minimize the MSE on the validation set. The results of using set A as training vs. set B as training is given in Figure \ref{fig:3-2}. The SSE for set A on the test set is $0.91$ and the MSE for set B on the test set was $1.25$. The reason that set B gives a more complex model is that the data used in the training set was not uniformly distributed around the optimal regression line - the errors from the training set were pulling the model coefficients into higher complexity. In reality, neither model accurately describes all given data. This means that the choice of training data selection from the entire dataset strongly affects the regression output.
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{exercise3-2-3.pdf}
+	\caption{A plot of the MSE (mean square error) as a function of different values of $\lambda$}
+	\label{fig:3-3}
+\end{figure}
 
-
-% In [15]: w0 = ridge_regression(x_train, y_train, m, l, np.mean(x_train, axis = 0), np.mean(y_train, axis = 0))
-% m =  0
-% lambda =  0
-% order 0
-% In [16]: w0
-% Out[16]: array([[ 6.75261634]])
-% SSE = 1372.20616144]
-
-% m =  0
-% lambda =  0.2
-% order 0
-% In [31]: w0
-% Out[31]: array([[ 6.75261634]])
-% SSE = 1372.20616144
-
-
-% singular matrix when m = 1 and lambda = 0.
-
-
-
+For the blogset data, a similar procedure was used. The training data was used to select the model class $M$. Values of $M \neq 2$ with $\lambda = 0$ yielded singular matrices when solving for optimal $w$, so the model class was chosen as $M = 1$ (MSE for $M = 1, \lambda = 0$ on the training set was $880.597$). Then the validation set was used to find the optimal value of $\lambda$. At the optimal value of $\lambda$ for $M = 1$ on the validation set, the MSE was $2641.527$. Figure \ref{fig:3-3} shows a plot of the MSE as a function of $\lambda$ for $M = 1$. With the optimal value of $\lambda$ chosen as the inflection point of the graph, the optimal parameters and test MSE were found to be $M = 1, \lambda = 0.00043,$ MSE = $2641.527$. 
 
 \section{Exercise 4}
 
