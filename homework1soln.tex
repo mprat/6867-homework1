@@ -321,6 +321,13 @@ For the blogset data, a similar procedure was used. The training data was used t
 
 \section{Exercise 4}
 
-This is a test. 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{exercise4-1.pdf}
+	\caption{A plot of the LAD (least absolute deviation) as a function of different values of $\lambda$ for $M = 1$. The x-values are on a log scale.}
+	\label{fig:4-1}
+\end{figure}
+
+For the LAD, repeating the experiments from Exercise 3 with central differences is difficult because the derivative of the LAD is discontinuous. Therefore, the gradient descent function goes through thousands of iterations and sometimes does not converge. My solution for mitigating this problem was to stop the gradient descent function after 10000 iterations, and the start value of the values of $w$ was always a list of zeros. The same algorithm as in Exercise 3 was then applied - the training dataset (set A) was used to select the optimum value of $M$ when $\lambda = 0$, which was determined to be $M = 1$. Then set B was the validation set that was used to find the optimum value of $\lambda$ when $M = 1$, searched for with a binary-like search. Figure \ref{fig:4-1} shows a plot of log-$\lambda$ vs LAD error. The optimal value of $\lambda$ was found to be $1e-8$. Then the validation set was the test set, where the LAD error was found to be $1.571.$
 
 \end{document}
