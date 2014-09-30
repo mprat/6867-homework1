@@ -312,6 +312,27 @@ Because there was no test / validation set given, I split the validation set int
 
 
 
+In [15]: w0 = ridge_regression(x_train, y_train, m, l, np.mean(x_train, axis = 0), np.mean(y_train, axis = 0))
+m =  0
+lambda =  0
+order 0
+In [16]: w0
+Out[16]: array([[ 6.75261634]])
+SSE = 1372.20616144]
+
+m =  0
+lambda =  0.2
+order 0
+In [31]: w0
+Out[31]: array([[ 6.75261634]])
+SSE = 1372.20616144
+
+
+singular matrix when m = 1 and lambda = 0.
+
+
+
+
 \section{Exercise 4}
 
 This is a test. 
