@@ -1,9 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1412128584 "homework1soln.tex" "homework1soln.pdf" "homework1soln" 1412128585
+["pdflatex"] 1412129713 "homework1soln.tex" "homework1soln.pdf" "homework1soln" 1412129714
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
+  "/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1303254447 7140 ece2cc23d9f20e1f53975ac167f42d3e ""
+  "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1335995445 6797 68c89f65e01894df882dd523d3fc0a8f ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1335995445 8253 3bdedc8409aa5d290a2339be6f09af03 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty" 1335995445 5152 387d9200f396b498d5fd679ae44ed898 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty" 1335995445 14040 8de9f47fabc4ca3bd69b6d795e32751c ""
@@ -14,6 +16,7 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty" 1368312746 65148 c61accbd2b9a5316d9be0887ec48d722 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty" 1368312746 62748 b02c0dc118f5f35146d37cec569e83b1 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty" 1360019375 4351 ee16013c18d101f9ecb20e53efde17b4 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty" 1284422013 40502 e003406220954b0716679d7928aedd8a ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty" 1254151804 14183 42a8fc761b806986eef292369afc2988 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty" 1399675188 7911 bf0a64f89bfb668c239ddf6324bf4afb ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty" 1399675188 2317 0ace13e225e9d95dd9defe947adc9fbb ""
@@ -26,6 +29,7 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1335995445 22417 c74ff4af6a1aa2b65d1924020edbbe11 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty" 1399675188 3255 42d834dc82171769c16badd22df87021 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "exercise1-2-ab.pdf" 1411937010 972084 c3e443b6a9934e957c0f70f2d6ac91dc ""
   "exercise1-2-c.pdf" 1411938465 575772 b9255d240e2bf3d2859d409487b6fd76 ""
   "exercise1-3-a.pdf" 1411937390 239517 2f7cc493baf8c652ce294d697dfd333a ""
@@ -35,8 +39,8 @@
   "exercise3-2-3.pdf" 1412097214 131491 bbc0a15078b0816a3c0c66f8b6a1d0c4 ""
   "exercise4-1.pdf" 1412125915 131505 6d89e812f2027f3164205ea2a5186e4a ""
   "exercise4-2.pdf" 1412128201 161916 7e7a6ea8b42abfd94aa15f762b5ead13 ""
-  "homework1soln.aux" 1412128585 4173 7299c1dcf56996448f8198f5a5a44565 ""
-  "homework1soln.tex" 1412128584 24596 63fff4069cbcd6b250f2bb64e9381634 ""
+  "homework1soln.aux" 1412129714 4173 b8009572990bc1efc6f3341777b63b8e ""
+  "homework1soln.tex" 1412129711 17616 76e8554c1365f182aed4bd3a651cf3d8 ""
   (generated)
   "homework1soln.log"
   "homework1soln.aux"

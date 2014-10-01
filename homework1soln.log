@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 SEP 2014 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 SEP 2014 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,41 +80,77 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen112
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen113
+\WF@size=\dimen114
+\c@WF@wrappedlines=\count91
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks15
+\@enLab=\toks16
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks17
 )
 (./homework1soln.aux)
 \openout1 = `homework1soln.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count95
+\scratchdimen=\dimen123
+\scratchbox=\box27
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen124
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -122,10 +158,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -163,107 +195,147 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 149.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 149.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
 <exercise1-2-ab.pdf, id=1, 867.24pt x 289.08pt>
 File: exercise1-2-ab.pdf Graphic file (type pdf)
  <use exercise1-2-ab.pdf>
-Package pdftex.def Info: exercise1-2-ab.pdf used on input line 158.
-(pdftex.def)             Requested size: 227.70126pt x 75.90007pt.
+Package pdftex.def Info: exercise1-2-ab.pdf used on input line 29.
+(pdftex.def)             Requested size: 310.04002pt x 103.3453pt.
 
 <exercise1-2-c.pdf, id=2, 1084.05pt x 216.81pt>
 File: exercise1-2-c.pdf Graphic file (type pdf)
  <use exercise1-2-c.pdf>
-Package pdftex.def Info: exercise1-2-c.pdf used on input line 167.
-(pdftex.def)             Requested size: 345.0pt x 69.00015pt.
+Package pdftex.def Info: exercise1-2-c.pdf used on input line 38.
+(pdftex.def)             Requested size: 469.75502pt x 93.95097pt.
 
 <exercise1-3-a.pdf, id=3, 867.24pt x 216.81pt>
 File: exercise1-3-a.pdf Graphic file (type pdf)
  <use exercise1-3-a.pdf>
-Package pdftex.def Info: exercise1-3-a.pdf used on input line 176.
-(pdftex.def)             Requested size: 345.0pt x 86.24937pt.
+Package pdftex.def Info: exercise1-3-a.pdf used on input line 47.
+(pdftex.def)             Requested size: 469.75502pt x 117.43956pt.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exerc
-ise1-2-ab.pdf>] <exercise2-1.pdf, id=2550, 1228.59pt x 216.81pt>
-File: exercise2-1.pdf Graphic file (type pdf)
+ise1-2-ab.pdf> <./exercise1-2-c.pdf
 
-<use exercise2-1.pdf>
-Package pdftex.def Info: exercise2-1.pdf used on input line 205.
-(pdftex.def)             Requested size: 431.25pt x 76.10297pt.
- [2 <./exercise1-2-c.pdf> <./exercise1-3-a.pdf
-
-pdfTeX warning: pdflatex (file ./exercise1-3-a.pdf): PDF inclusion: multiple pd
+pdfTeX warning: pdflatex (file ./exercise1-2-c.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->]
-Overfull \hbox (14.78389pt too wide) in paragraph at lines 266--266
+>] <exercise2-1.pdf, id=2569, 1228.59pt x 216.81pt>
+File: exercise2-1.pdf Graphic file (type pdf)
+ <use exercise2-1.pdf>
+Package pdftex.def Info: exercise2-1.pdf used on input line 76.
+(pdftex.def)             Requested size: 587.19377pt x 103.6243pt.
+
+Overfull \hbox (8.77469pt too wide) in paragraph at lines 138--138
  [][] 
  []
 
-[3 <./exercise2-1.pdf>] <exercise3-1.pdf, id=2812, 1084.05pt x 216.81pt>
-File: exercise3-1.pdf Graphic file (type pdf)
+[2 <./exercise1-3-a.pdf> <./exercise2-1.pdf
 
-<use exercise3-1.pdf>
-Package pdftex.def Info: exercise3-1.pdf used on input line 297.
-(pdftex.def)             Requested size: 431.25pt x 86.24937pt.
- <exercise3-2-1.pdf, id=2813, 708.32298pt x 272.12392pt>
+pdfTeX warning: pdflatex (file ./exercise2-1.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] <exercise3-1.pdf, id=2807, 1084.05pt x 216.81pt>
+File: exercise3-1.pdf Graphic file (type pdf)
+ <use exercise3-1.pdf>
+Package pdftex.def Info: exercise3-1.pdf used on input line 169.
+(pdftex.def)             Requested size: 587.19377pt x 117.44286pt.
+
+<exercise3-2-1.pdf, id=2808, 708.32298pt x 272.12392pt>
 File: exercise3-2-1.pdf Graphic file (type pdf)
 
 <use exercise3-2-1.pdf>
-Package pdftex.def Info: exercise3-2-1.pdf used on input line 306.
-(pdftex.def)             Requested size: 345.0pt x 132.54048pt.
- [4 <./exercise3-1.pdf>]
-<exercise3-2-3.pdf, id=2832, 433.62pt x 289.08pt>
+Package pdftex.def Info: exercise3-2-1.pdf used on input line 178.
+(pdftex.def)             Requested size: 469.75502pt x 180.47015pt.
+ [3] <exercise3-2-3.pdf, id=2813, 433.62pt x 289.08pt>
 File: exercise3-2-3.pdf Graphic file (type pdf)
- <use exercise3-2-3.pdf>
-Package pdftex.def Info: exercise3-2-3.pdf used on input line 315.
-(pdftex.def)             Requested size: 172.5pt x 114.99918pt.
 
-[5 <./exercise3-2-1.pdf> <./exercise3-2-3.pdf
-
-pdfTeX warning: pdflatex (file ./exercise3-2-3.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->] <exercise4-1.pdf, id=2884, 433.62pt x 289.08pt>
+<use exercise3-2-3.pdf>
+Package pdftex.def Info: exercise3-2-3.pdf used on input line 187.
+(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+ <exercise4-1.pdf, id=2814, 433.62pt x 289.08pt>
 File: exercise4-1.pdf Graphic file (type pdf)
- <use exercise4-1.pdf>
-Package pdftex.def Info: exercise4-1.pdf used on input line 326.
-(pdftex.def)             Requested size: 172.5pt x 114.99918pt.
 
-<exercise4-2.pdf, id=2885, 433.62pt x 289.08pt>
+<use exercise4-1.pdf>
+Package pdftex.def Info: exercise4-1.pdf used on input line 199.
+(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+ [4 <./exercise3-1.pdf> <./exercise3-2-1.pdf
+
+pdfTeX warning: pdflatex (file ./exercise3-2-1.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] <exercise4-2.pdf, id=2863, 433.62pt x 289.08pt>
 File: exercise4-2.pdf Graphic file (type pdf)
  <use exercise4-2.pdf>
-Package pdftex.def Info: exercise4-2.pdf used on input line 335.
-(pdftex.def)             Requested size: 172.5pt x 114.99918pt.
- [6 <./exercise4-1.pdf>] [7 <./exercise4-2.pdf>] (./homework1soln.aux) ) 
+Package pdftex.def Info: exercise4-2.pdf used on input line 209.
+(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+
+[5 <./exercise3-2-3.pdf> <./exercise4-1.pdf
+
+pdfTeX warning: pdflatex (file ./exercise4-1.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] [6 <./exercise4-2.pdf>] (./homework1soln.aux) ) 
 Here is how much of TeX's memory you used:
- 2657 strings out of 493117
- 42753 string characters out of 6135433
- 107066 words of memory out of 5000000
- 6115 multiletter control sequences out of 15000+600000
+ 3190 strings out of 493117
+ 50552 string characters out of 6135433
+ 127064 words of memory out of 5000000
+ 6634 multiletter control sequences out of 15000+600000
  4546 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,38p,1660b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on homework1soln.pdf (7 pages, 1600191 bytes).
+ 38i,13n,38p,1661b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/u
+rw/ncntrsbk/uncr8a.pfb>
+Output written on homework1soln.pdf (6 pages, 1599415 bytes).
 PDF statistics:
- 2957 PDF objects out of 2984 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 2950 PDF objects out of 2984 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
