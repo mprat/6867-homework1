@@ -6,7 +6,7 @@
 \usepackage{multirow}
 \usepackage{wrapfig}
 \usepackage{enumerate}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.1in]{geometry}
 
 \providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
 
@@ -214,8 +214,20 @@ For the LAD, repeating the experiments from Exercise 3 with central differences 
 
 When optimizing with gradient descent on a lasso with least-squares error, the same method was used as described above for LAD, including the limiting of computation time on the gradient descent. In choosing $M$, the error grows very quickly with increasing values of $M$ if the start value is all zeros in the gradient descent, so the start value was changed to $(-1, 1)$. The optimal $M$ chosen was $M = 1$. On set B, the optimal value of $\lambda$ was calculated to be $1\e-10$. Figure \ref{fig:4-2} is a plot of the Lasso error as a function of $\lambda$ for $M = 1$. The error on the test set was $0.056$. In the Lasso case, the choice of step size, starting value, and threshold less strongly affect the optimal value of $\lambda$ and the value of the error. 
 
-In both cases of LAD and Lasso, the starting value, step size, and threshold have an enormous effect on the outcome of the optimization. However, in my experiments, the Lasso was much more sensitive to start values.
+\begin{figure}[!ht]
+	\begin{center}
+	\includegraphics[width=0.48\textwidth]{exercise4-3.pdf}
+	\caption{The calculated estimators from LAD and Lasso.}
+	\label{fig:4-3}
+	\end{center}
+\end{figure}
 
-It is wise to use Lasso as an estimator when there are a lot of features, since the constraints on the Lasso penalize having many variables, therefore decreasing model complexity. In both cases, loss function that is presented in the problem becomes the error function used to measure success of the predictive model. So in the case of an absolute value loss $L(p, a) = |p - a|$, the LAD approach is the correct measure of success, since it is the same measure of loss. For all approaches to measuring model success, the given loss function must match the error function. 
+In both cases of LAD and Lasso, the starting value, step size, and threshold have an enormous effect on the outcome of the optimization. However, in my experiments, the Lasso was much more sensitive to start values. Figure \ref{fig:4-3} shows the estimated results of LAD and Lasso regression on the datasets after validation. Unfortunately, LAD is much more sensitive to outliers (as seen by the one outlier in the top left corner of the page), so the calculated estimator is not as good as the Lasso estimator. 
+
+It is wise to use Lasso as an estimator when there are a lot of features, since the constraints on the Lasso penalize having many variables, therefore decreasing model complexity. The other scenario where this is a good idea is when the problem is computationally computationally expensive, so that the variables tend to zero and sparse computations can be used instead. 
+
+Another factor to consider is the presence of outliers. If there are outliers in the data, the LAD will be much more sensitive to them, and will more easily find local minima in it's optimization. However, Lasso is much more robust to outliers, since it is calculating squared error rather than absolute value error.
+
+In both cases, loss function that is presented in the problem becomes the error function used to measure success of the predictive model. So in the case of an absolute value loss $L(p, a) = |p - a|$, the LAD approach is the correct measure of success, since it is the same measure of loss. For all approaches to measuring model success, the given loss function must match the error function. 
 
 \end{document}

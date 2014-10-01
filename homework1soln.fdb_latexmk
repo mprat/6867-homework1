@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1412129713 "homework1soln.tex" "homework1soln.pdf" "homework1soln" 1412129714
+["pdflatex"] 1412130241 "homework1soln.tex" "homework1soln.pdf" "homework1soln" 1412130242
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
@@ -39,8 +39,9 @@
   "exercise3-2-3.pdf" 1412097214 131491 bbc0a15078b0816a3c0c66f8b6a1d0c4 ""
   "exercise4-1.pdf" 1412125915 131505 6d89e812f2027f3164205ea2a5186e4a ""
   "exercise4-2.pdf" 1412128201 161916 7e7a6ea8b42abfd94aa15f762b5ead13 ""
-  "homework1soln.aux" 1412129714 4173 b8009572990bc1efc6f3341777b63b8e ""
-  "homework1soln.tex" 1412129711 17616 76e8554c1365f182aed4bd3a651cf3d8 ""
+  "exercise4-3.pdf" 1412130043 117760 f7b85acdd688fa2be888216fe85ed3b7 ""
+  "homework1soln.aux" 1412130242 4331 3a6947976fe0196ab7ed237c6bf220a0 ""
+  "homework1soln.tex" 1412130240 18622 6b41cd6188459cd0db986cf2171d41e9 ""
   (generated)
   "homework1soln.log"
   "homework1soln.aux"

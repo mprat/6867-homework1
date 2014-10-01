@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 SEP 2014 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 SEP 2014 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -203,15 +203,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(79.49744pt, 455.30013pt, 79.49744pt)
+* v-part:(T,H,B)=(79.49744pt, 635.97511pt, 79.49744pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=455.30013pt
+* \textheight=635.97511pt
+* \oddsidemargin=7.22745pt
+* \evensidemargin=7.22745pt
+* \topmargin=-29.77255pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -237,19 +237,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: exercise1-2-ab.pdf Graphic file (type pdf)
  <use exercise1-2-ab.pdf>
 Package pdftex.def Info: exercise1-2-ab.pdf used on input line 29.
-(pdftex.def)             Requested size: 310.04002pt x 103.3453pt.
+(pdftex.def)             Requested size: 300.49974pt x 100.16498pt.
 
 <exercise1-2-c.pdf, id=2, 1084.05pt x 216.81pt>
 File: exercise1-2-c.pdf Graphic file (type pdf)
  <use exercise1-2-c.pdf>
 Package pdftex.def Info: exercise1-2-c.pdf used on input line 38.
-(pdftex.def)             Requested size: 469.75502pt x 93.95097pt.
+(pdftex.def)             Requested size: 455.30013pt x 91.05957pt.
 
 <exercise1-3-a.pdf, id=3, 867.24pt x 216.81pt>
 File: exercise1-3-a.pdf Graphic file (type pdf)
  <use exercise1-3-a.pdf>
 Package pdftex.def Info: exercise1-3-a.pdf used on input line 47.
-(pdftex.def)             Requested size: 469.75502pt x 117.43956pt.
+(pdftex.def)             Requested size: 455.30013pt x 113.82695pt.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exerc
@@ -261,9 +261,9 @@ fs with page group included in a single page
 File: exercise2-1.pdf Graphic file (type pdf)
  <use exercise2-1.pdf>
 Package pdftex.def Info: exercise2-1.pdf used on input line 76.
-(pdftex.def)             Requested size: 587.19377pt x 103.6243pt.
+(pdftex.def)             Requested size: 569.12515pt x 100.43515pt.
 
-Overfull \hbox (8.77469pt too wide) in paragraph at lines 138--138
+Overfull \hbox (14.26762pt too wide) in paragraph at lines 138--138
  [][] 
  []
 
@@ -275,26 +275,26 @@ pdfTeX warning: pdflatex (file ./exercise2-1.pdf): PDF inclusion: multiple pdfs
 File: exercise3-1.pdf Graphic file (type pdf)
  <use exercise3-1.pdf>
 Package pdftex.def Info: exercise3-1.pdf used on input line 169.
-(pdftex.def)             Requested size: 587.19377pt x 117.44286pt.
+(pdftex.def)             Requested size: 569.12515pt x 113.82695pt.
 
 <exercise3-2-1.pdf, id=2808, 708.32298pt x 272.12392pt>
 File: exercise3-2-1.pdf Graphic file (type pdf)
 
 <use exercise3-2-1.pdf>
 Package pdftex.def Info: exercise3-2-1.pdf used on input line 178.
-(pdftex.def)             Requested size: 469.75502pt x 180.47015pt.
+(pdftex.def)             Requested size: 455.30013pt x 174.91856pt.
  [3] <exercise3-2-3.pdf, id=2813, 433.62pt x 289.08pt>
 File: exercise3-2-3.pdf Graphic file (type pdf)
 
 <use exercise3-2-3.pdf>
 Package pdftex.def Info: exercise3-2-3.pdf used on input line 187.
-(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+(pdftex.def)             Requested size: 218.54211pt x 145.69531pt.
  <exercise4-1.pdf, id=2814, 433.62pt x 289.08pt>
 File: exercise4-1.pdf Graphic file (type pdf)
 
 <use exercise4-1.pdf>
 Package pdftex.def Info: exercise4-1.pdf used on input line 199.
-(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+(pdftex.def)             Requested size: 218.54211pt x 145.69531pt.
  [4 <./exercise3-1.pdf> <./exercise3-2-1.pdf
 
 pdfTeX warning: pdflatex (file ./exercise3-2-1.pdf): PDF inclusion: multiple pd
@@ -303,39 +303,49 @@ fs with page group included in a single page
 File: exercise4-2.pdf Graphic file (type pdf)
  <use exercise4-2.pdf>
 Package pdftex.def Info: exercise4-2.pdf used on input line 209.
-(pdftex.def)             Requested size: 225.4804pt x 150.32245pt.
+(pdftex.def)             Requested size: 218.54211pt x 145.69531pt.
 
 [5 <./exercise3-2-3.pdf> <./exercise4-1.pdf
 
 pdfTeX warning: pdflatex (file ./exercise4-1.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] [6 <./exercise4-2.pdf>] (./homework1soln.aux) ) 
+>] <exercise4-3.pdf, id=2901, 433.62pt x 289.08pt>
+File: exercise4-3.pdf Graphic file (type pdf)
+ <use exercise4-3.pdf>
+Package pdftex.def Info: exercise4-3.pdf used on input line 219.
+(pdftex.def)             Requested size: 218.54211pt x 145.69531pt.
+
+[6 <./exercise4-2.pdf> <./exercise4-3.pdf
+
+pdfTeX warning: pdflatex (file ./exercise4-3.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] [7] (./homework1soln.aux) ) 
 Here is how much of TeX's memory you used:
- 3190 strings out of 493117
- 50552 string characters out of 6135433
- 127064 words of memory out of 5000000
- 6634 multiletter control sequences out of 15000+600000
+ 3196 strings out of 493117
+ 50655 string characters out of 6135433
+ 127089 words of memory out of 5000000
+ 6639 multiletter control sequences out of 15000+600000
  4546 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,13n,38p,1661b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/u
-rw/ncntrsbk/uncr8a.pfb>
-Output written on homework1soln.pdf (6 pages, 1599415 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.p
+fb>
+Output written on homework1soln.pdf (7 pages, 1607747 bytes).
 PDF statistics:
- 2950 PDF objects out of 2984 (max. 8388607)
- 182 compressed objects within 2 object streams
+ 2970 PDF objects out of 2984 (max. 8388607)
+ 196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
