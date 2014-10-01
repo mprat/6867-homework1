@@ -205,11 +205,13 @@ For the blogset data, a similar procedure was used. The training data was used t
 For the LAD, repeating the experiments from Exercise 3 with central differences is difficult because the derivative of the LAD is discontinuous. Therefore, the gradient descent function goes through thousands of iterations and sometimes does not converge. My solution for mitigating this problem was to stop the gradient descent function after 2000 iterations, and the start value of the values of $w$ was always a list of zeros. Even when given a start value of $(-1, 1)$, which is close to the `optimal' solution, the LAD does not perform well. The same algorithm as in Exercise 3 was then applied - the training dataset (set A) was used to select the optimum value of $M$ when $\lambda = 0$, which was determined to be $M = 1$. Then set B was the validation set that was used to find the optimum value of $\lambda$ when $M = 1$, searched for with a binary-like search. When calculating $M$, the step size for gradient descent was $0.001$ and the threshold was $0.0001$, which yielded good results. To get more accurate coefficients and a finer-grained search during $\lambda$ selection, a step size of $0.00005$ and threshold of $0.00001$ were used. For the $\lambda$ selection, the  Figure \ref{fig:4-1} shows a plot of log-$\lambda$ vs LAD error. The optimal value of $\lambda$ was found to be $1\e-13$. Then the given validation set became the test set, where the LAD error was found to be $1.654$. One thing to watch out for when using gradient descent is that the threshold and the step size have an effect on the optimal value of $\lambda$ - the smaller the threshold, the smaller the optimal value of $\lambda$. 
 
 \begin{figure}[!ht]
+	\vspace{-3mm}
 	\begin{center}
 	\includegraphics[width=0.48\textwidth]{exercise4-2.pdf}
 	\caption{A plot of the Lasso as a function of different values of $\lambda$ for $M = 1$. The x-values are on a log scale.}
 	\label{fig:4-2}
 	\end{center}
+	\vspace{-5mm}
 \end{figure}
 
 When optimizing with gradient descent on a lasso with least-squares error, the same method was used as described above for LAD, including the limiting of computation time on the gradient descent. In choosing $M$, the error grows very quickly with increasing values of $M$ if the start value is all zeros in the gradient descent, so the start value was changed to $(-1, 1)$. The optimal $M$ chosen was $M = 1$. On set B, the optimal value of $\lambda$ was calculated to be $1\e-10$. Figure \ref{fig:4-2} is a plot of the Lasso error as a function of $\lambda$ for $M = 1$. The error on the test set was $0.056$. In the Lasso case, the choice of step size, starting value, and threshold less strongly affect the optimal value of $\lambda$ and the value of the error. 
