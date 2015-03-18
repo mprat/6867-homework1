@@ -311,7 +311,7 @@
 			"file": "homework1soln.tex",
 			"settings":
 			{
-				"buffer_size": 19507,
+				"buffer_size": 18652,
 				"line_ending": "Unix"
 			}
 		}
@@ -319,16 +319,20 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 307.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
-				"side",
-				"View: Toggle Side Bar"
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"",
-				"Bookmarks: Toggle"
+				"Convert Case: Swap Case"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
 			],
 			[
 				":w",
@@ -385,10 +389,6 @@
 			[
 				"set syntax: late",
 				"Set Syntax: LaTeX"
-			],
-			[
-				"pack",
-				"Package Control: Remove Package"
 			],
 			[
 				"latextool",
@@ -467,7 +467,7 @@
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 383.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -494,6 +494,9 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/6867-homework1/6867homework1.sublime-project",
+		"/Users/mprat/Documents/repos/6867-homework1/MATLAB/regressionPlot.m",
+		"/Users/mprat/Documents/repos/6867-homework1/regress_validate.txt",
 		"/Users/mprat/Documents/repos/6867-homework1/python/homework1.py",
 		"/Users/mprat/Documents/repos/6867-homework1/MATLAB/validateData.m",
 		"/Users/mprat/Dropbox/Resumes/resume_complete.tex",
@@ -501,7 +504,6 @@
 		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/mprat/Documents/repos/6867-homework1/6867homework1.sublime-project",
 		"/Users/mprat/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
 		"/Users/mprat/Documents/repos/6867-homework1/homework1soln.pdf",
 		"/Users/mprat/Documents/repos/6867-homework1/curvefitting.txt",
@@ -619,9 +621,7 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-character-input-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-odd-or-even.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-character-input.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-list-ends-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
-		"/home/mprat/Documents/Michele/Repos/kivy_test_app/README.md"
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-list-ends-solutions.md"
 	],
 	"find":
 	{
@@ -794,7 +794,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19507,
+						"buffer_size": 18652,
 						"regions":
 						{
 							"bookmarks":
@@ -804,8 +804,8 @@
 								"regions":
 								[
 									[
-										18301,
-										18301
+										11264,
+										11264
 									]
 								],
 								"scope": "bookmarks"
@@ -814,8 +814,8 @@
 						"selection":
 						[
 							[
-								18490,
-								18490
+								270,
+								270
 							]
 						],
 						"settings":
@@ -825,7 +825,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6945.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -918,7 +918,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 195.0,
 	"status_bar_visible": true,
 	"template_settings":
